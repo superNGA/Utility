@@ -7,6 +7,11 @@
 #define WildCard 0xFF
 #define CREATE_INTERFACE "CreateInterface"
 
+//Common Interfaces Names
+#define IV_ENGINE_CLIENT	"VEngineClient013"
+#define ENTITY_LIST		"VClientEntityList003"
+#define VCLIENT017		"VClient017"
+
 //Template for Get interface function
 typedef void* (__cdecl T_CreateInterface)(const char* InterfaceName, int* ReturnCode);
 
