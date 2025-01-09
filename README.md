@@ -1,4 +1,4 @@
-signature scanner
-virtual table
-interface manager
+signature scanner\n
+virtual table\n
+interface manager\n
 input detection methods
