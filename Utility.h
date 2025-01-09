@@ -57,7 +57,7 @@ private:
 namespace input_util
 {
 	/* retuns key state in different fashions 
-	@param if toggle -> TRUE , output is toggles when key pressed
+	@param if toggle -> TRUE , output toggles when key pressed
 	@param if toggle -> FALSE, output true only when key pressed */
 	inline bool key_detect(const BYTE key, const bool toggle)
 	{
